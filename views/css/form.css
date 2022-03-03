@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:yellow ;
+}
+body:hover{
+    background-color: darkgrey;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .test1{
+      border: 2px solid black;
+      text-align: center;
+      background-color: green;
+  }
+  .test1:hover{
+      
+      background-color: cornflowerblue;
+  }
+  .test2{
+    border: 2px solid black;
+    text-align: center;
+    background-color: darkmagenta;
+  }
+  .test2:hover{
+      background-color: chocolate;
+  }
+  button:hover{
+      background-color: chartreuse;
+
+  }
+  label{
+      color: darkblue;
+  }
+  /*.test3{
+      padding-top: 50px;
+  }*/
